@@ -1,3 +1,5 @@
+
+/* mudanças globais */
 *
 {
     margin: 0;
@@ -5,6 +7,7 @@
     box-sizing: border-box;
 }
 
+/* variaveis raiz */
 :root
 {
     --text-color:white;
@@ -15,7 +18,7 @@
     --highligh-color:rgba(255,255,255,0.2);
     --switch-bg-url:url(./aasents/moon-stars.svg)
 }
-
+/* variaveis da class light */
 .light
 {
     --text-color:black;
@@ -27,6 +30,7 @@
     --switch-bg-url:url(./aasents/Sun.svg)
 }
 
+/* corpo */
 body
 {
     background:var(--bg-url) no-repeat top center/cover;
@@ -75,13 +79,14 @@ body *
 }    
 
 
+/* SWITCH */
 #switch
 {
     position: relative;
     width: 64px;
     margin: 4px auto;
 }
- /* SWITCH */
+/* formatao e animação do butao */
 #switch button
 {
  width: 32px;
@@ -100,19 +105,19 @@ body *
  animation: slide-out 0.2s;
 }
 
-
+/* animcao do butão */
 .light #switch button
 {
 animation: slide-in 0.2s forwards;
 }
 
-
+/* cor do outline do butão */
 #switch button:hover
 {
     outline: 8px solid var(--highligh-color);
 }
 
-
+/* formato do span */
 #switch span 
 {
  width: 64px;
@@ -124,7 +129,7 @@ display: block;
 border-radius: 9999px;
 }
 
-
+/* lista */
 ul{
 /*links*/ 
 
@@ -192,7 +197,7 @@ ul li a:hover
     transition: background 0.2s;
 }    
 
-
+/* rodapé */
 footer
 {
     text-align: center;
@@ -201,7 +206,7 @@ footer
 
 }   
 
-
+/* mudaça de largura dependendo do tamanho */
 @media (min-width:700px)
 {
     :root 
@@ -228,7 +233,7 @@ footer
         left: 50%;
     }
 }
-
+/* animação do butao voltando */
 @keyframes slide-out {
     from
     {
