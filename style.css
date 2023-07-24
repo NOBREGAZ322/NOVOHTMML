@@ -43,8 +43,9 @@ body *
 #container
 {
     padding: 0 24px;
-    width: 360px;
+    width: 100%;
     margin:  56px auto 0px;
+    max-width: 588px;
     /* text-align: center; */
 }    
 
