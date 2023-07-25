@@ -1,2 +1,2 @@
 # NOVOHTML
-Fazendo pagina HTML com ajuda da RocketSeat! com amor mario
+Fazendo pagina HTML com ajuda da RocketSeat! 
