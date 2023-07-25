@@ -8,18 +8,8 @@
 }
 
 /* variaveis raiz */
-:root
-{
-    --text-color:white;
-    --bg-url:url(./aasents/bg-mobile.jpg);
-    --stroke-color:rgba(255,255,255,0.5);
-    --surface-color:rgba(255,255,255,0.1);
-    --surface-color-hover:rgba(0,0,0,0.02);
-    --highligh-color:rgba(255,255,255,0.2);
-    --switch-bg-url:url(./aasents/moon-stars.svg)
-}
 /* variaveis da class light */
-.light
+:root
 {
     --text-color:black;
     --bg-url:url(./aasents/bg-mobile-light.jpg);
@@ -27,7 +17,17 @@
     --surface-color:rgba(0,0,0,0.05);
     --surface-color-hover:rgba(0,0,0,0.02);
     --highligh-color:rgba(0,0,0,0.1);
-    --switch-bg-url:url(./aasents/sun.svg)
+    --switch-bg-url:url(./aasents/sun.svg);
+}
+.light
+{
+    --text-color:white;
+    --bg-url:url(./aasents/bg-mobile.jpg);
+    --stroke-color:rgba(255,255,255,0.5);
+    --surface-color:rgba(255,255,255,0.1);
+    --surface-color-hover:rgba(0,0,0,0.02);
+    --highligh-color:rgba(255,255,255,0.2);
+    --switch-bg-url:url(./aasents/moon-stars.svg);
 }
 
 /* corpo */
@@ -108,7 +108,7 @@ body *
 /* animcao do butão */
 .light #switch button
 {
-animation: slide-in 0.2s forwards;
+    animation: slide-in 0.2s forwards;
 }
 
 /* cor do outline do butão */
@@ -211,13 +211,13 @@ footer
 {
     :root 
     {
-       --bg-url:url(./aasents/bg-desktop.jpg);
-    }
-
-    .light
-    {
         --bg-url:url(./aasents/bg-desktop-light.jpg);
     }
+    .light
+    {
+        --bg-url:url(./aasents/bg-desktop.jpg);
+    }
+    
 }
 
 /* animacao do butao */

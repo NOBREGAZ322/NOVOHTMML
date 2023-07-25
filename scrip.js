@@ -9,11 +9,11 @@ function togglemode()
 
     if (html.classList.contains("light"))
     {
-        img.setAttribute("src", './aasents/avatar-light.png')
+        img.setAttribute("src",'./aasents/Avatar.png')
     }
     else
     {
-        img.setAttribute("src",'./aasents/Avatar.png')
+        img.setAttribute("src", './aasents/avatar-light.png')
     }
 
     // pegga a tag img ,substituir a img 
