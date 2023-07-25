@@ -13,7 +13,7 @@ function togglemode()
     }
     else
     {
-        img.setAttribute("src",'/aasents/Avatar.png')
+        img.setAttribute("src",'./aasents/Avatar.png')
     }
 
     // pegga a tag img ,substituir a img 
