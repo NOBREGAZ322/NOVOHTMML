@@ -1,3 +1,4 @@
+// função togglemode
 function togglemode()
 {
     const html = document.documentElement
