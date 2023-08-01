@@ -35,6 +35,7 @@ body
 {
     background:var(--bg-url) no-repeat top center/cover;
     height: 100vh;
+    text-align: center;
 }
 
 body *
@@ -173,14 +174,10 @@ ul li a:hover
 #botao button
 {
     border: 1px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    left: 40%;
-
-    background: var(--surface-color);
+    margin: 0 auto;
     width: 100px;
+    background: var(--surface-color);
     border-radius: 8px;
     padding: 3px;
 }
@@ -244,8 +241,6 @@ footer
     }
     
 }
-
-/* animacao do butao */
 
 @keyframes slide-in
 {
