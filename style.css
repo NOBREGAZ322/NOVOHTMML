@@ -169,6 +169,30 @@ ul li a:hover
 
 }    
 
+
+#botao button
+{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40%;
+
+    background: var(--surface-color);
+    width: 100px;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+
+#botao button:hover
+{
+    background: var(--surface-color-hover);
+    border: 1.5px solid black;
+}
+
+
 /* ICONES SOCIAL */
 
 #midiassociais

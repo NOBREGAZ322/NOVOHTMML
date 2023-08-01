@@ -16,5 +16,6 @@ function togglemode()
         img.setAttribute("src", './aasents/avatar-light.png')
     }
 
+
     // pegga a tag img ,substituir a img 
 }
