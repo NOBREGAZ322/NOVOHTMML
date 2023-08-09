@@ -1,14 +1,9 @@
-/* css */
-/* mudanças globais */
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* variaveis raiz */
-/* variaveis da class light */
 :root
 {
     --text-color:black;
@@ -29,8 +24,6 @@
     --highligh-color:rgba(255,255,255,0.2);
     --switch-bg-url:url(./aasents/moon-stars.svg);
 }
-
-/* corpo */
 body
 {
     background:var(--bg-url) no-repeat top center/cover;
@@ -43,8 +36,6 @@ body *
     font-family: 'Inter', sans-serif;
     color:var(--text-color);
 }
-
-/* CONTEINER */
 #container
 {
     padding: 0 24px;
@@ -53,34 +44,6 @@ body *
     max-width: 588px;
     /* text-align: center; */
 }    
-
-/* PERFIL */
-/* perfil */
-#profile
-{
-    text-align: center;
-    padding: 24px;
-}    
-
-/* perfil imagem */
-#profile img
-{
-    width: 130px;
-   display: block; 
-   margin: auto;
-   
-}   
-
-/* paragrafos */
-#profile p 
-{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    margin-top: 12px;
-    text-decoration:none;
-}    
-
 
 /* SWITCH */
 #switch
@@ -92,20 +55,18 @@ body *
 /* formatao e animação do butao */
 #switch button
 {
- width: 32px;
- height: 32px;
- background: white var(--switch-bg-url) no-repeat center;
- 
- border: 0;
- border-radius: 50%;
-
- top: 50%;
- position: absolute;
- left: 0;
- transform:translatey(-50%);
- z-index: 1;
- right: 0;
- animation: slide-out 0.2s;
+    width: 32px;
+    height: 32px;
+    background: white var(--switch-bg-url) no-repeat center;
+    border: 0;
+    border-radius: 50%;
+    top: 50%;
+    position: absolute;
+    left: 0;
+    transform:translatey(-50%);
+    z-index: 1;
+    right: 0;
+    animation: slide-out 0.2s;
 }
 
 /* animcao do butão */
@@ -123,17 +84,18 @@ body *
 /* formato do span */
 #switch span 
 {
- width: 64px;
- height: 24px;
-background: var(--surface-color);
-backdrop-filter: blur(4px);
--webkit-backdrop-filter: blur(4px);
-display: block; 
-border-radius: 9999px;
+    width: 64px;
+    height: 24px;
+    background: var(--surface-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: block; 
+    border-radius: 9999px;
 }
 
 /* lista */
-ul{
+ul
+{
 /*links*/ 
 
     list-style: none; 
@@ -143,22 +105,22 @@ ul{
     padding: 24px 0;
 }    
 
-
-
 ul li a
 {
-display: flex;    
-align-items: center;
-justify-content: center;
-padding: 16px 24px;
-font-size: 18px;
-background:var(--surface-color);
-border:1px solid var(--stroke-color);
-border-radius: 8px;
-backdrop-filter: blur(4px);
-text-decoration: none;
-font-weight: 500;
-transition:  background 0.2s
+
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 16px 24px;
+    background:var(--surface-color);
+    border:1px solid var(--stroke-color);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 500;
+    transition:  background 0.2s
+
 }
 
 /* passar o mouse em cima utiliza o HOVER*/
@@ -180,7 +142,7 @@ ul li a:hover
     background: var(--surface-color);
     border-radius: 8px;
     padding: 3px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 
