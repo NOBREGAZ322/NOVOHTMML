@@ -192,7 +192,7 @@ footer
 }   
 
 /* mudaça de largura dependendo do tamanho */
-@media (min-width:700px)
+@media (min-width:800px)
 {
     :root 
     {
